@@ -1,0 +1,5 @@
+.pytest_cache/
+env/
+kata_machine.egg-info/
+src/**/__pycache__
+
