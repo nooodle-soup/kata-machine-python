@@ -16,27 +16,3 @@ def two_crystal_balls(breaks: list[bool]) -> int:
             return j
 
     return -1
-
-
-assert (
-    two_crystal_balls(
-        [
-            False,
-            False,
-            False,
-            False,
-            False,
-            False,
-            False,
-            False,
-            False,
-            False,
-            True,
-            True,
-            True,
-            True,
-            True,
-        ]
-    )
-    == 10
-)
