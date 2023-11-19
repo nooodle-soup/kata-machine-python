@@ -35,4 +35,3 @@ class Queue:
             assert self.head is not None
             return self.head.value
         return None
-

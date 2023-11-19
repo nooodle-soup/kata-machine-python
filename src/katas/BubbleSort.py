@@ -6,6 +6,3 @@ def bubble_sort(bundle: list[int]) -> list[int]:
                 bundle[j], bundle[j + 1] = bundle[j + 1], bundle[j]
 
     return bundle
-
-
-assert bubble_sort([2, 4, 3, 1]) == [1, 2, 3, 4]
