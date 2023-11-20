@@ -5,8 +5,8 @@ def efficientServerSetup(memory):
     memory: list of int
         List of data for each server
 
-    Return
-    ------
+    Returns
+    -------
     int
         Maximum possible server efficiency
     """
